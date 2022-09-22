@@ -1,5 +1,6 @@
-import { Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Navbar from './components/navbar/Navbar';
 import About from './views/about/About';
 import Contact from './views/contact/Contact';
 import Gallery from './views/gallery/Gallery';
@@ -10,14 +11,17 @@ import Trainers from './views/trainers/Trainers';
 function App() {
   return (
     <div className="App">
-      <Routes>
-        <Home/>
-        <About/> 
-        <Gallery/>
-        <Plans/>
-        <Trainers/>
-        <Contact/>
-      </Routes>
+
+        <Navbar/>
+        <Routes>
+          <Route path="/" exact element={ <Home/>} />
+          <Route path='/about' element={ <About/> } />
+          <Route path="/gallery" element={ <Gallery/>} />
+          <Route path="/plans" element={ <Plans/>} />
+          <Route path="/trainers" element={ <Trainers/>} />
+          <Route path="/contact" element={ <Contact/>} />
+        </Routes>
+
     </div>
   );
 }

@@ -1,8 +1,11 @@
 import React from 'react'
+import HeaderComp from '../../components/headerComp/HeaderComp'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className="">
+      <HeaderComp/>
+    </div>
   )
 }
 

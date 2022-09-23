@@ -1,0 +1,44 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    height: calc(100vh - 4rem);
+
+    .left-side{
+
+        span{
+            color: var(--color-secondary)
+        }
+
+        .btn-submit{
+
+            text-transform: capitalize;
+            font-size: 20px;
+            line-height: 10rem;
+        }
+    }
+
+    .right-side{
+        position: relative;
+
+        &:hover  .right-side-circle{
+            filter: blur(15px);
+        }
+        .right-side-circle{
+            background: linear-gradient(75deg, var(--color-secondary), transparent) ;
+            width: 22em;
+            height: 22em;
+            border-radius: 50%;
+            position: absolute;
+            left: 2em;
+            top: 4em;
+            z-index: -1;
+            transition: var(--transition);
+
+        }
+
+        .img-header{
+            width: 85%;
+        }
+    }
+}

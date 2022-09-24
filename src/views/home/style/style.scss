@@ -1,0 +1,12 @@
+/* ==========PROGRAMS ===========*/
+
+.program {
+    margin-top: 5rem;
+
+    .program__wrapper{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 35px;
+        margin-top: 3rem;
+    }
+}

@@ -7,9 +7,6 @@ import FaqUI from '../../UI/faqs/Faq';
 
 import './style/style.scss';
 
-console.log('====================================');
-console.log(faqs);
-console.log('====================================');
 
 
 const Faqs = () => {

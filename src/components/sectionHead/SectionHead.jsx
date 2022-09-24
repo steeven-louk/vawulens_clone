@@ -9,4 +9,4 @@ const SectionHead = ({icon, title, className}) => {
   )
 }
 
-export default SectionHead
+export default SectionHead;

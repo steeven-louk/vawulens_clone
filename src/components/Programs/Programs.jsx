@@ -10,9 +10,6 @@ import { Link } from 'react-router-dom';
 import "./style/style.scss"
 
 
-    console.log('====================================');
-    console.log(programs);
-    console.log('====================================');
 
 const Programs = () => {
   return (

@@ -1,0 +1,44 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background: var(--color-primary);
+    margin-top: 7rem;
+    padding-top: 7rem;
+    font-size: 0.9rem;
+    color: var(--color-gray-100);
+   
+    
+    &__container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        place-items: center;
+        justify-content: center;
+        margin: 0 0 0 10em;
+
+        article{
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+
+            &:nth-child(1){
+              
+                width: 109%;
+
+                 .logo img{
+                width: 30%;
+                margin-bottom: 15px;
+            }
+            }
+
+           
+        }
+       
+    }
+
+    &__copyright{
+        text-align: center;
+        padding: 3em 0 0 0;
+        font-size: 1.5em;
+    }
+
+}

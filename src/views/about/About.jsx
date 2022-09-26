@@ -1,15 +1,17 @@
-import React from 'react'
-import Header from '../../components/header/Header'
+import React from "react";
+import Header from "../../components/header/Header";
 
-import './style/style.scss';
+import "./style/style.scss";
 
 const About = () => {
   return (
-    
-    <> 
-
-      <Header title="About Us" image="./images/header_bg_1.jpg" >
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem vero, tenetur nulla, eum molestias animi quos ratione officia voluptas ex et optio sapiente, architecto esse. Repudiandae tenetur odit at.</p>
+    <>
+      <Header title="About Us" image="./images/header_bg_1.jpg">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem vero,
+          tenetur nulla, eum molestias animi quos ratione officia voluptas ex et
+          optio sapiente, architecto esse. Repudiandae tenetur odit at.
+        </p>
       </Header>
 
       <section className="about__story">
@@ -20,12 +22,24 @@ const About = () => {
           <div className="about__section-content">
             <h1>Our Story</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur molestias praesentium eos in atque ipsum a. Libero atque deleniti corrupti laborum placeat architecto facilis ipsum repellendus quam sequi sapiente distinctio, veniam culpa animi! Ipsa eaque cum obcaecati dicta modi eligendi asperiores similique, accusamus temporibus.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+              pariatur molestias praesentium eos in atque ipsum a. Libero atque
+              deleniti corrupti laborum placeat architecto facilis ipsum
+              repellendus quam sequi sapiente distinctio, veniam culpa animi!
+              Ipsa eaque cum obcaecati dicta modi eligendi asperiores similique,
+              accusamus temporibus.
             </p>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat mollitia corporis laborum aliquam natus praesentium, ea, officiis incidunt quidem soluta perferendis rem libero maiores adipisci sed?
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat
+              mollitia corporis laborum aliquam natus praesentium, ea, officiis
+              incidunt quidem soluta perferendis rem libero maiores adipisci
+              sed?
             </p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores expedita velit esse assumenda, dolore corporis qui temporibus reiciendis facilis rem dolorum blanditiis dicta quam sequi.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              expedita velit esse assumenda, dolore corporis qui temporibus
+              reiciendis facilis rem dolorum blanditiis dicta quam sequi.
+            </p>
           </div>
         </div>
       </section>
@@ -38,12 +52,24 @@ const About = () => {
           <div className="about__section-content">
             <h1>Our Vision</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur molestias praesentium eos in atque ipsum a. Libero atque deleniti corrupti laborum placeat architecto facilis ipsum repellendus quam sequi sapiente distinctio, veniam culpa animi! Ipsa eaque cum obcaecati dicta modi eligendi asperiores similique, accusamus temporibus.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+              pariatur molestias praesentium eos in atque ipsum a. Libero atque
+              deleniti corrupti laborum placeat architecto facilis ipsum
+              repellendus quam sequi sapiente distinctio, veniam culpa animi!
+              Ipsa eaque cum obcaecati dicta modi eligendi asperiores similique,
+              accusamus temporibus.
             </p>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat mollitia corporis laborum aliquam natus praesentium, ea, officiis incidunt quidem soluta perferendis rem libero maiores adipisci sed?
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat
+              mollitia corporis laborum aliquam natus praesentium, ea, officiis
+              incidunt quidem soluta perferendis rem libero maiores adipisci
+              sed?
             </p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores expedita velit esse assumenda, dolore corporis qui temporibus reiciendis facilis rem dolorum blanditiis dicta quam sequi.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              expedita velit esse assumenda, dolore corporis qui temporibus
+              reiciendis facilis rem dolorum blanditiis dicta quam sequi.
+            </p>
           </div>
         </div>
       </section>
@@ -56,17 +82,29 @@ const About = () => {
           <div className="about__section-content">
             <h1>Our Mission</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur molestias praesentium eos in atque ipsum a. Libero atque deleniti corrupti laborum placeat architecto facilis ipsum repellendus quam sequi sapiente distinctio, veniam culpa animi! Ipsa eaque cum obcaecati dicta modi eligendi asperiores similique, accusamus temporibus.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+              pariatur molestias praesentium eos in atque ipsum a. Libero atque
+              deleniti corrupti laborum placeat architecto facilis ipsum
+              repellendus quam sequi sapiente distinctio, veniam culpa animi!
+              Ipsa eaque cum obcaecati dicta modi eligendi asperiores similique,
+              accusamus temporibus.
             </p>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat mollitia corporis laborum aliquam natus praesentium, ea, officiis incidunt quidem soluta perferendis rem libero maiores adipisci sed?
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat
+              mollitia corporis laborum aliquam natus praesentium, ea, officiis
+              incidunt quidem soluta perferendis rem libero maiores adipisci
+              sed?
             </p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores expedita velit esse assumenda, dolore corporis qui temporibus reiciendis facilis rem dolorum blanditiis dicta quam sequi.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              expedita velit esse assumenda, dolore corporis qui temporibus
+              reiciendis facilis rem dolorum blanditiis dicta quam sequi.
+            </p>
           </div>
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;

@@ -10,6 +10,7 @@
     
     &__container{
         display: grid;
+        flex-wrap: wrap;
         grid-template-columns: repeat(4, 1fr);
         place-items: center;
         justify-content: center;
@@ -23,10 +24,16 @@
             &:nth-child(1){
               
                 width: 109%;
-
+                
                  .logo img{
                 width: 30%;
                 margin-bottom: 15px;
+            }
+            
+            .footer__socials{
+                a{
+                    font-size: 1.7em;
+                }
             }
             }
 

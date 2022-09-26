@@ -1,6 +1,5 @@
 import React from 'react'
 import Faqs from '../../components/Faqs/Faqs'
-import Footer from '../../components/footer/Footer'
 import HeaderComp from '../../components/headerComp/HeaderComp'
 import Programs from '../../components/Programs/Programs'
 import Testimonials from '../../components/testimonials/Testimonials'
@@ -16,7 +15,6 @@ const Home = () => {
       <Value/>
       <Faqs/>
       <Testimonials/>
-      <Footer/>
     </>
   )
 }

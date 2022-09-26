@@ -19,4 +19,4 @@ const Header = ({title, image, children}) => {
   )
 }
 
-export default Header;
+export default Header
